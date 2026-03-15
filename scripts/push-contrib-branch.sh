@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+set -x
 
 readonly repo=$(mktemp -d)
 readonly artefact=$(mktemp)
