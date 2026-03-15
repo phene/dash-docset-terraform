@@ -52,5 +52,5 @@ git add -A
 git commit -m "Terraform.docset $tag"
 
 git push \
-	"https://${CI_USER_USERNAME}:${CI_USER_ACCESS_TOKEN}@github.com/roberth-k/Dash-User-Contributions.git" \
+	"https://${CI_USER_USERNAME}:${CI_USER_ACCESS_TOKEN}@github.com/${CI_USER_USERNAME}/Dash-User-Contributions.git" \
 	"HEAD:$branch_name"

@@ -16,6 +16,6 @@ curl \
             \"title\": \"Terraform $version\",
             \"head\": \"roberth-k:terraform-$tag\",
             \"base\": \"master\",
-            \"body\": \"This is an automated PR. Please report issues to https://github.com/roberth-k/dash-docset-terraform.\"
+            \"body\": \"This is an automated PR. Please report issues to https://github.com/${CI_USER_USERNAME}/dash-docset-terraform.\"
         }
     "
