@@ -14,7 +14,7 @@ curl \
     -d "
         {
             \"title\": \"Terraform $version\",
-            \"head\": \"roberth-k:terraform-$tag\",
+            \"head\": \"${CI_USER_USERNAME}:terraform-$tag\",
             \"base\": \"master\",
             \"body\": \"This is an automated PR. Please report issues to https://github.com/${CI_USER_USERNAME}/dash-docset-terraform.\"
         }
