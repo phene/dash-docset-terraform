@@ -1,6 +1,6 @@
 aliyun/alicloud https://github.com/aliyun/terraform-provider-alicloud v2.0.0-beta2
 auth0/auth0 https://github.com/auth0/terraform-provider-auth0 v1.54.1
-Azure/azapi https://github.com/Azure/terraform-provider-azapi v2.11.0
+Azure/azapi https://github.com/Azure/terraform-provider-azapi v2.12.0
 cloudflare/cloudflare https://github.com/cloudflare/terraform-provider-cloudflare v5.23.0
 confluentinc/confluent https://github.com/confluentinc/terraform-provider-confluent v2.81.0
 databricks/databricks https://github.com/databricks/terraform-provider-databricks v1.124.0
